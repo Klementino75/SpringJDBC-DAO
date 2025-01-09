@@ -1,11 +1,11 @@
 databaseChangeLog:
   - changeSet:
-      id: create-customers # текстовый идентификатор
-      author: Author # автор
+      id: create-CUSTOMERS #текстовый идентификатор
+      author: Author #автор
       changes:
-        - createTable: # создаем новую таблицу
+        - createTable: #создаем новую таблицу
             tableName: CUSTOMERS
-            columns: # объявление колонок
+            columns: #объявление колонок
               - column:
                   name: id
                   type: BIGSERIAL

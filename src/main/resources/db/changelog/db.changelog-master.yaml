@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include: # список миграций
-      file: db/changelog/changeset/create-customers-table.yaml
-  - include:
-      file: db/changelog/changeset/create-orders-table.yaml
