@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 @Repository
 @RequiredArgsConstructor
 public class RepositoryJDBC {
+    @PersistenceContext
     private final EntityManager entityManager;
 
     public List<String> getProductName(String name) {
