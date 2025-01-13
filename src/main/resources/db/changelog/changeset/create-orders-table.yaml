@@ -8,14 +8,14 @@ databaseChangeLog:
             columns: # объявление колонок
               - column:
                   name: id
-                  type: BIGSERIAL
+                  type: int
                   autoIncrement: true
                   constraints:
                     primaryKey: true
                     nullable: false
               - column:
                   name: date
-                  type: DATE
+                  type: date
                   constraints:
                     nullable: false
               - column:

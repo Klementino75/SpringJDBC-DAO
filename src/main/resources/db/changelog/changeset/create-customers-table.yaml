@@ -8,7 +8,7 @@ databaseChangeLog:
             columns: # объявление колонок
               - column:
                   name: id
-                  type: BIGSERIAL
+                  type: int
                   autoIncrement: true
                   constraints:
                     primaryKey: true

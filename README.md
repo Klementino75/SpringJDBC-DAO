@@ -1,5 +1,5 @@
 ### Домашнее задание.
 
-#### 8.3. JDBC API, JdbcTemplate, NamedParametersJdbcTemplate.
+#### 8.4. ORM, Hibernate.
 
-Задание 2. Миграции* (задача со звёздочкой) Liquibase.
+Задание 3. Две таблицы с Hibernate* (задача со звёздочкой).
